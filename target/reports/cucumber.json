@@ -1,0 +1,238 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "# language: es"
+      }
+    ],
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Un lider de equipo crea una tarea",
+        "description": "",
+        "id": "creacion-y-asignacion-de-tarea;un-lider-de-equipo-crea-una-tarea",
+        "type": "scenario",
+        "keyword": "Escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 180179094,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "que soy el usuario \"Paula Perez\" y puedo crear tareas",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Paula Perez",
+                  "offset": 20
+                }
+              ],
+              "location": "CreacionTareaSteps.que_soy_el_usuario_y_puedo_crear_tareas(String)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 296792,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "cuando creo la tarea \"inscripcion\" , \"ID\" y \"Paula Perez\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "inscripcion",
+                  "offset": 22
+                },
+                {
+                  "val": "ID",
+                  "offset": 38
+                },
+                {
+                  "val": "Paula Perez",
+                  "offset": 45
+                }
+              ],
+              "location": "CreacionTareaSteps.cuando_creo_la_tarea(String,String,String)"
+            },
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 3438044,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "se crea la tarea con nombre \"inscripcion\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "inscripcion",
+                  "offset": 29
+                }
+              ],
+              "location": "CreacionTareaSteps.se_crea_la_tarea_con_nombre(String)"
+            },
+            "keyword": "Entonces "
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "Un analista funcional del equipo crea una tarea",
+        "description": "",
+        "id": "creacion-y-asignacion-de-tarea;un-analista-funcional-del-equipo-crea-una-tarea",
+        "type": "scenario",
+        "keyword": "Escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 171118,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "que soy el usuario \"Josefina Martinez\" y puedo crear tareas",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Josefina Martinez",
+                  "offset": 20
+                }
+              ],
+              "location": "CreacionTareaSteps.que_soy_el_usuario_y_puedo_crear_tareas(String)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 224872,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "cuando creo la tarea \"crear nuevo curso\" , \"ID\" y \"Josefina Martinez\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "crear nuevo curso",
+                  "offset": 22
+                },
+                {
+                  "val": "ID",
+                  "offset": 44
+                },
+                {
+                  "val": "Josefina Martinez",
+                  "offset": 51
+                }
+              ],
+              "location": "CreacionTareaSteps.cuando_creo_la_tarea(String,String,String)"
+            },
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 129045,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "se crea la tarea con nombre \"crear nuevo curso\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "crear nuevo curso",
+                  "offset": 29
+                }
+              ],
+              "location": "CreacionTareaSteps.se_crea_la_tarea_con_nombre(String)"
+            },
+            "keyword": "Entonces "
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Un lider de equipo asigna una tarea a un desarrollador",
+        "description": "",
+        "id": "creacion-y-asignacion-de-tarea;un-lider-de-equipo-asigna-una-tarea-a-un-desarrollador",
+        "type": "scenario",
+        "keyword": "Escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 154918,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "que soy el usuario \"Paula Perez\" y puedo crear tareas",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Paula Perez",
+                  "offset": 20
+                }
+              ],
+              "location": "CreacionTareaSteps.que_soy_el_usuario_y_puedo_crear_tareas(String)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 456876,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "cuando asigno la tarea \"inscripcion\" a \"Christian Sanchez\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "inscripcion",
+                  "offset": 24
+                },
+                {
+                  "val": "Christian Sanchez",
+                  "offset": 40
+                }
+              ],
+              "location": "CreacionTareaSteps.cuando_asigno_la_tarea_a(String,String)"
+            },
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 203661,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Christian Sanchez tiene la tarea \"inscripcion\" asignada",
+            "match": {
+              "arguments": [
+                {
+                  "val": "inscripcion",
+                  "offset": 34
+                }
+              ],
+              "location": "CreacionTareaSteps.Christian_Sanchez_tiene_la_tarea_asignada(String)"
+            },
+            "keyword": "Entonces "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "",
+        "description": "",
+        "id": "creacion-y-asignacion-de-tarea;",
+        "type": "scenario",
+        "keyword": "Escenario"
+      }
+    ],
+    "name": "Creacion y asignacion de tarea",
+    "description": "",
+    "id": "creacion-y-asignacion-de-tarea",
+    "keyword": "Característica",
+    "uri": "tarea.feature"
+  }
+]
