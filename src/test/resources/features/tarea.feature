@@ -16,4 +16,12 @@ Característica: Creacion y asignacion de tarea
     Cuando cuando asigno la tarea "inscripcion" a "Christian Sanchez"
     Entonces Christian Sanchez tiene la tarea "inscripcion" asignada
 
-  Escenario:
+  Escenario: Un analista funcional asigna una tarea a un desarrollador
+    Dado que soy el usuario "Josefina Martinez" y puedo crear tareas
+    Cuando cuando asigno la tarea "crear nuevo curso" a "Juan Ramirez"
+    Entonces Christian Sanchez tiene la tarea "crear nuevo curso" asignada
+
+  Escenario: Se crea una tarea para un proyecto
+    Dado que creo el proyecto "Guarani" y creo la tarea "ofertaAcademica"
+    Cuando cuando asigno la tarea al proyecto
+    Entonces la tarea "ofertaAcademica" debe ser una tarea del proyecto Guarani

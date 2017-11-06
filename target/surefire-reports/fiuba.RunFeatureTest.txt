@@ -1,23 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: fiuba.RunFeatureTest
 -------------------------------------------------------------------------------
-Tests run: 14, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.126 sec <<< FAILURE! - in fiuba.RunFeatureTest
-fiuba.RunFeatureTest  Time elapsed: 0.059 sec  <<< ERROR!
-cucumber.runtime.CucumberException: java.lang.NullPointerException
-	at cucumber.runtime.formatter.JUnitFormatter.sumTimes(JUnitFormatter.java:168)
-	at cucumber.runtime.formatter.JUnitFormatter.done(JUnitFormatter.java:103)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at cucumber.runtime.Utils$1.call(Utils.java:34)
-	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
-	at cucumber.runtime.Utils.invoke(Utils.java:30)
-	at cucumber.runtime.RuntimeOptions$1.invoke(RuntimeOptions.java:179)
-	at com.sun.proxy.$Proxy10.done(Unknown Source)
-	at cucumber.runtime.junit.JUnitReporter.done(JUnitReporter.java:192)
-	at cucumber.api.junit.Cucumber.run(Cucumber.java:95)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:264)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:124)
-
+Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.945 sec - in fiuba.RunFeatureTest

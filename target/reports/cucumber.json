@@ -18,7 +18,7 @@
         "steps": [
           {
             "result": {
-              "duration": 180179094,
+              "duration": 111956711,
               "status": "passed"
             },
             "line": 5,
@@ -36,7 +36,7 @@
           },
           {
             "result": {
-              "duration": 296792,
+              "duration": 213554,
               "status": "passed"
             },
             "line": 6,
@@ -62,7 +62,7 @@
           },
           {
             "result": {
-              "duration": 3438044,
+              "duration": 2549899,
               "status": "passed"
             },
             "line": 7,
@@ -90,7 +90,7 @@
         "steps": [
           {
             "result": {
-              "duration": 171118,
+              "duration": 118452,
               "status": "passed"
             },
             "line": 10,
@@ -108,7 +108,7 @@
           },
           {
             "result": {
-              "duration": 224872,
+              "duration": 169049,
               "status": "passed"
             },
             "line": 11,
@@ -134,7 +134,7 @@
           },
           {
             "result": {
-              "duration": 129045,
+              "duration": 107870,
               "status": "passed"
             },
             "line": 12,
@@ -162,7 +162,7 @@
         "steps": [
           {
             "result": {
-              "duration": 154918,
+              "duration": 133367,
               "status": "passed"
             },
             "line": 15,
@@ -180,7 +180,7 @@
           },
           {
             "result": {
-              "duration": 456876,
+              "duration": 232740,
               "status": "passed"
             },
             "line": 16,
@@ -202,7 +202,7 @@
           },
           {
             "result": {
-              "duration": 203661,
+              "duration": 158434,
               "status": "passed"
             },
             "line": 17,
@@ -222,11 +222,133 @@
       },
       {
         "line": 19,
-        "name": "",
+        "name": "Un analista funcional asigna una tarea a un desarrollador",
         "description": "",
-        "id": "creacion-y-asignacion-de-tarea;",
+        "id": "creacion-y-asignacion-de-tarea;un-analista-funcional-asigna-una-tarea-a-un-desarrollador",
         "type": "scenario",
-        "keyword": "Escenario"
+        "keyword": "Escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 119135,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "que soy el usuario \"Josefina Martinez\" y puedo crear tareas",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Josefina Martinez",
+                  "offset": 20
+                }
+              ],
+              "location": "CreacionTareaSteps.que_soy_el_usuario_y_puedo_crear_tareas(String)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 137315,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "cuando asigno la tarea \"crear nuevo curso\" a \"Juan Ramirez\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "crear nuevo curso",
+                  "offset": 24
+                },
+                {
+                  "val": "Juan Ramirez",
+                  "offset": 46
+                }
+              ],
+              "location": "CreacionTareaSteps.cuando_asigno_la_tarea_a(String,String)"
+            },
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 110061,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Christian Sanchez tiene la tarea \"crear nuevo curso\" asignada",
+            "match": {
+              "arguments": [
+                {
+                  "val": "crear nuevo curso",
+                  "offset": 34
+                }
+              ],
+              "location": "CreacionTareaSteps.Christian_Sanchez_tiene_la_tarea_asignada(String)"
+            },
+            "keyword": "Entonces "
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "Se crea una tarea para un proyecto",
+        "description": "",
+        "id": "creacion-y-asignacion-de-tarea;se-crea-una-tarea-para-un-proyecto",
+        "type": "scenario",
+        "keyword": "Escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 251743,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "que creo el proyecto \"Guarani\" y creo la tarea \"ofertaAcademica\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Guarani",
+                  "offset": 22
+                },
+                {
+                  "val": "ofertaAcademica",
+                  "offset": 48
+                }
+              ],
+              "location": "CreacionTareaSteps.que_creo_el_proyecto_y_creo_la_tarea(String,String)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 72669,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "cuando asigno la tarea al proyecto",
+            "match": {
+              "location": "CreacionTareaSteps.cuando_asigno_la_tarea_al_proyecto()"
+            },
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 349449,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "la tarea \"ofertaAcademica\" debe ser una tarea del proyecto Guarani",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ofertaAcademica",
+                  "offset": 10
+                }
+              ],
+              "location": "CreacionTareaSteps.la_tarea_debe_ser_una_tarea_del_proyecto_Guarani(String)"
+            },
+            "keyword": "Entonces "
+          }
+        ]
       }
     ],
     "name": "Creacion y asignacion de tarea",

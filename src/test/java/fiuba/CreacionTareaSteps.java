@@ -16,6 +16,7 @@ public class CreacionTareaSteps {
     private Lider lider;
     private Desarrollador desarrollador;
     private Tarea nuevaTarea;
+    private Proyecto proyecto_guarani;
     private boolean resultadoExitoso;
     private final String ID = "22J";
 
@@ -55,6 +56,25 @@ public class CreacionTareaSteps {
 
         String tareaAsignada = desarrollador.getTareas().get(0).getNombre();
         assertEquals(tarea,tareaAsignada);
+    }
+
+    @Dado("^que creo el proyecto \"(.*?)\" y creo la tarea \"(.*?)\"$")
+    public void que_creo_el_proyecto_y_creo_la_tarea(String nomProyecto, String nomTarea) throws Throwable {
+
+        proyecto_guarani = new Proyecto(nomProyecto);
+        nuevaTarea = new Tarea(nomTarea, "24B", "Paula Perez");
+    }
+
+    @Cuando("^cuando asigno la tarea al proyecto$")
+    public void cuando_asigno_la_tarea_al_proyecto() throws Throwable {
+
+        proyecto_guarani.agregarTarea(nuevaTarea);
+
+    }
+
+    @Entonces("^la tarea \"(.*?)\" debe ser una tarea del proyecto Guarani$")
+    public void la_tarea_debe_ser_una_tarea_del_proyecto_Guarani(String tarea) throws Throwable {
+        assertEquals(proyecto_guarani.getTareas().get(0).getNombre(),tarea);
     }
 
 

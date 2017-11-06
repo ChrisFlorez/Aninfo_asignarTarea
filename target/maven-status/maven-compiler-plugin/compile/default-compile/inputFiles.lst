@@ -1,4 +1,9 @@
-/home/chris/Documentos/aninfo/proyecto-tuvieja/src/main/java/fiuba/Usuario.java
-/home/chris/Documentos/aninfo/proyecto-tuvieja/src/main/java/fiuba/FachadaBanco.java
-/home/chris/Documentos/aninfo/proyecto-tuvieja/src/main/java/fiuba/Tarea.java
-/home/chris/Documentos/aninfo/proyecto-tuvieja/src/main/java/fiuba/SaldoIsuficienteException.java
+/home/chris/Documentos/aninfo/proyecto-tuvieja/Aninfo_asignarTarea/src/main/java/fiuba/Equipo.java
+/home/chris/Documentos/aninfo/proyecto-tuvieja/Aninfo_asignarTarea/src/main/java/fiuba/Proyecto.java
+/home/chris/Documentos/aninfo/proyecto-tuvieja/Aninfo_asignarTarea/src/main/java/fiuba/Lider.java
+/home/chris/Documentos/aninfo/proyecto-tuvieja/Aninfo_asignarTarea/src/main/java/fiuba/Desarrollador.java
+/home/chris/Documentos/aninfo/proyecto-tuvieja/Aninfo_asignarTarea/src/main/java/fiuba/Tarea.java
+/home/chris/Documentos/aninfo/proyecto-tuvieja/Aninfo_asignarTarea/src/main/java/fiuba/Usuario.java
+/home/chris/Documentos/aninfo/proyecto-tuvieja/Aninfo_asignarTarea/src/main/java/fiuba/OperacionInvalidaException.java
+/home/chris/Documentos/aninfo/proyecto-tuvieja/Aninfo_asignarTarea/src/main/java/fiuba/Asignable.java
+/home/chris/Documentos/aninfo/proyecto-tuvieja/Aninfo_asignarTarea/src/main/java/fiuba/AnalistaFuncional.java
