@@ -14,7 +14,7 @@ import static org.junit.Assert.assertFalse;
 public class CreacionTareaSteps {
 
     private Lider lider;
-    private Desarrollador desarrollador;
+    private Desarrollador desarrollador, desarrolladorQueAsignaTarea;;
     private Tarea nuevaTarea;
     private Proyecto proyecto_guarani;
     private boolean resultadoExitoso;
@@ -77,6 +77,27 @@ public class CreacionTareaSteps {
         assertEquals(proyecto_guarani.getTareas().get(0).getNombre(),tarea);
     }
 
+    @Dado("^que soy el usuario \"(.*?)\"$")
+    public void que_soy_el_usuario(String nombre) throws Throwable {
+        desarrolladorQueAsignaTarea = new Desarrollador(nombre);
+    }
 
+    @Cuando("^cuando asigno la tarea \"(.*?)\" a \"(.*?)\" siendo desarrollador$")
+    public void cuando_asigno_la_tarea_a_siendo_desarrollador(String nombreTarea, String nombreUsuario) throws Throwable {
+
+        desarrollador = new Desarrollador(nombreUsuario);
+        nuevaTarea = new Tarea(nombreTarea, "23B", desarrollador.getNombre());
+        try {
+            desarrolladorQueAsignaTarea.asignar(nuevaTarea,desarrollador);
+        } catch (OperacionInvalidaException exception) {
+            resultadoExitoso = false;
+        }
+    }
+
+    @Entonces("^Christian Sanchez no tiene la tarea \"(.*?)\" ya que \"(.*?)\" no esta autorizado$")
+    public void christian_Sanchez_no_tiene_la_tarea_ya_que_no_esta_autorizado(String tarea1, String desarrollador) throws Throwable {
+        assertFalse(resultadoExitoso);
+        assertTrue(this.desarrollador.getTareas().isEmpty());
+    }
 
 }

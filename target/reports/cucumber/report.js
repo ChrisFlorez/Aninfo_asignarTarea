@@ -45,7 +45,7 @@ formatter.match({
   "location": "CreacionTareaSteps.que_soy_el_usuario_y_puedo_crear_tareas(String)"
 });
 formatter.result({
-  "duration": 111956711,
+  "duration": 102252752,
   "status": "passed"
 });
 formatter.match({
@@ -66,7 +66,7 @@ formatter.match({
   "location": "CreacionTareaSteps.cuando_creo_la_tarea(String,String,String)"
 });
 formatter.result({
-  "duration": 213554,
+  "duration": 214090,
   "status": "passed"
 });
 formatter.match({
@@ -79,7 +79,7 @@ formatter.match({
   "location": "CreacionTareaSteps.se_crea_la_tarea_con_nombre(String)"
 });
 formatter.result({
-  "duration": 2549899,
+  "duration": 1838332,
   "status": "passed"
 });
 formatter.scenario({
@@ -115,7 +115,7 @@ formatter.match({
   "location": "CreacionTareaSteps.que_soy_el_usuario_y_puedo_crear_tareas(String)"
 });
 formatter.result({
-  "duration": 118452,
+  "duration": 426579,
   "status": "passed"
 });
 formatter.match({
@@ -136,7 +136,7 @@ formatter.match({
   "location": "CreacionTareaSteps.cuando_creo_la_tarea(String,String,String)"
 });
 formatter.result({
-  "duration": 169049,
+  "duration": 169085,
   "status": "passed"
 });
 formatter.match({
@@ -149,7 +149,7 @@ formatter.match({
   "location": "CreacionTareaSteps.se_crea_la_tarea_con_nombre(String)"
 });
 formatter.result({
-  "duration": 107870,
+  "duration": 108117,
   "status": "passed"
 });
 formatter.scenario({
@@ -185,7 +185,7 @@ formatter.match({
   "location": "CreacionTareaSteps.que_soy_el_usuario_y_puedo_crear_tareas(String)"
 });
 formatter.result({
-  "duration": 133367,
+  "duration": 124245,
   "status": "passed"
 });
 formatter.match({
@@ -202,7 +202,7 @@ formatter.match({
   "location": "CreacionTareaSteps.cuando_asigno_la_tarea_a(String,String)"
 });
 formatter.result({
-  "duration": 232740,
+  "duration": 408168,
   "status": "passed"
 });
 formatter.match({
@@ -215,7 +215,7 @@ formatter.match({
   "location": "CreacionTareaSteps.Christian_Sanchez_tiene_la_tarea_asignada(String)"
 });
 formatter.result({
-  "duration": 158434,
+  "duration": 116757,
   "status": "passed"
 });
 formatter.scenario({
@@ -251,7 +251,7 @@ formatter.match({
   "location": "CreacionTareaSteps.que_soy_el_usuario_y_puedo_crear_tareas(String)"
 });
 formatter.result({
-  "duration": 119135,
+  "duration": 132030,
   "status": "passed"
 });
 formatter.match({
@@ -268,7 +268,7 @@ formatter.match({
   "location": "CreacionTareaSteps.cuando_asigno_la_tarea_a(String,String)"
 });
 formatter.result({
-  "duration": 137315,
+  "duration": 131282,
   "status": "passed"
 });
 formatter.match({
@@ -281,7 +281,7 @@ formatter.match({
   "location": "CreacionTareaSteps.Christian_Sanchez_tiene_la_tarea_asignada(String)"
 });
 formatter.result({
-  "duration": 110061,
+  "duration": 63635,
   "status": "passed"
 });
 formatter.scenario({
@@ -321,14 +321,14 @@ formatter.match({
   "location": "CreacionTareaSteps.que_creo_el_proyecto_y_creo_la_tarea(String,String)"
 });
 formatter.result({
-  "duration": 251743,
+  "duration": 213502,
   "status": "passed"
 });
 formatter.match({
   "location": "CreacionTareaSteps.cuando_asigno_la_tarea_al_proyecto()"
 });
 formatter.result({
-  "duration": 72669,
+  "duration": 96886,
   "status": "passed"
 });
 formatter.match({
@@ -341,7 +341,77 @@ formatter.match({
   "location": "CreacionTareaSteps.la_tarea_debe_ser_una_tarea_del_proyecto_Guarani(String)"
 });
 formatter.result({
-  "duration": 349449,
+  "duration": 118983,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 29,
+  "name": "Un desarrollador asigna una tarea a otro desarrollador",
+  "description": "",
+  "id": "creacion-y-asignacion-de-tarea;un-desarrollador-asigna-una-tarea-a-otro-desarrollador",
+  "type": "scenario",
+  "keyword": "Escenario"
+});
+formatter.step({
+  "line": 30,
+  "name": "que soy el usuario \"Juan Ramirez\"",
+  "keyword": "Dado "
+});
+formatter.step({
+  "line": 31,
+  "name": "cuando asigno la tarea \"crear nuevo curso\" a \"Christian Sanchez\" siendo desarrollador",
+  "keyword": "Cuando "
+});
+formatter.step({
+  "line": 32,
+  "name": "Christian Sanchez no tiene la tarea \"crear nuevo curso\" ya que \"Juan Ramirez\" no esta autorizado",
+  "keyword": "Entonces "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Juan Ramirez",
+      "offset": 20
+    }
+  ],
+  "location": "CreacionTareaSteps.que_soy_el_usuario(String)"
+});
+formatter.result({
+  "duration": 143319,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "crear nuevo curso",
+      "offset": 24
+    },
+    {
+      "val": "Christian Sanchez",
+      "offset": 46
+    }
+  ],
+  "location": "CreacionTareaSteps.cuando_asigno_la_tarea_a_siendo_desarrollador(String,String)"
+});
+formatter.result({
+  "duration": 255900,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "crear nuevo curso",
+      "offset": 37
+    },
+    {
+      "val": "Juan Ramirez",
+      "offset": 64
+    }
+  ],
+  "location": "CreacionTareaSteps.christian_Sanchez_no_tiene_la_tarea_ya_que_no_esta_autorizado(String,String)"
+});
+formatter.result({
+  "duration": 159358,
   "status": "passed"
 });
 });

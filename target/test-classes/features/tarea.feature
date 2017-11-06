@@ -25,3 +25,8 @@ Característica: Creacion y asignacion de tarea
     Dado que creo el proyecto "Guarani" y creo la tarea "ofertaAcademica"
     Cuando cuando asigno la tarea al proyecto
     Entonces la tarea "ofertaAcademica" debe ser una tarea del proyecto Guarani
+
+  Escenario: Un desarrollador asigna una tarea a otro desarrollador
+    Dado que soy el usuario "Juan Ramirez"
+    Cuando cuando asigno la tarea "crear nuevo curso" a "Christian Sanchez" siendo desarrollador
+    Entonces Christian Sanchez no tiene la tarea "crear nuevo curso" ya que "Juan Ramirez" no esta autorizado
