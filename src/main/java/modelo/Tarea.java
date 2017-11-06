@@ -1,4 +1,4 @@
-package fiuba;
+package modelo;
 
 public class Tarea {
 
@@ -19,15 +19,12 @@ public class Tarea {
 
         this.descripcion = descripcion;
     }
-    public void asignarA(String responsable) {
+
+    public void setResponsable(String responsable) {
 
         this.responsable = responsable;
     }
 
-    public String getCreador (){
-
-        return this.creador;
-    }
 
     public String getResponsable() {
 

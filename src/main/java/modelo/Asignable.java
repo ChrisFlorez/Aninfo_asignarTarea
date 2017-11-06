@@ -1,4 +1,4 @@
-package fiuba;
+package modelo;
 
 public interface Asignable {
 

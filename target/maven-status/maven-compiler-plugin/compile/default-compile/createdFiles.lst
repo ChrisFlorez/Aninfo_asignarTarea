@@ -1,7 +1,9 @@
-fiuba/Desarrollador.class
-fiuba/AnalistaFuncional.class
-fiuba/Lider.class
-fiuba/Asignable.class
-fiuba/Equipo.class
-fiuba/Proyecto.class
-fiuba/OperacionInvalidaException.class
+modelo/OperacionInvalidaException.class
+modelo/AnalistaFuncional.class
+modelo/Proyecto.class
+modelo/Usuario.class
+modelo/Desarrollador.class
+modelo/Asignable.class
+modelo/Lider.class
+modelo/Tarea.class
+modelo/Equipo.class

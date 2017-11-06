@@ -1,4 +1,4 @@
-package fiuba;
+package modelo;
 
 public class AnalistaFuncional extends Usuario implements Asignable {
 
@@ -8,7 +8,7 @@ public class AnalistaFuncional extends Usuario implements Asignable {
 
     @Override
     public void asignar(Tarea unaTarea, Usuario nuevoUsuario) {
-        unaTarea.asignarA(nuevoUsuario.getNombre());
+        unaTarea.setResponsable(nuevoUsuario.getNombre());
         nuevoUsuario.agregarTarea(unaTarea);
     }
 }

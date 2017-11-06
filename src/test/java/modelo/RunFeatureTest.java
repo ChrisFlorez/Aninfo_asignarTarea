@@ -1,4 +1,4 @@
-package fiuba;
+package modelo;
 
 
 import cucumber.api.CucumberOptions;

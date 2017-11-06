@@ -1,4 +1,4 @@
-package fiuba;
+package modelo;
 
 public class Desarrollador extends Usuario implements Asignable {
 

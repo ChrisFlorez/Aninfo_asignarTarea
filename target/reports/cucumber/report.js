@@ -45,7 +45,7 @@ formatter.match({
   "location": "CreacionTareaSteps.que_soy_el_usuario_y_puedo_crear_tareas(String)"
 });
 formatter.result({
-  "duration": 102252752,
+  "duration": 271139138,
   "status": "passed"
 });
 formatter.match({
@@ -66,7 +66,7 @@ formatter.match({
   "location": "CreacionTareaSteps.cuando_creo_la_tarea(String,String,String)"
 });
 formatter.result({
-  "duration": 214090,
+  "duration": 200321,
   "status": "passed"
 });
 formatter.match({
@@ -79,7 +79,7 @@ formatter.match({
   "location": "CreacionTareaSteps.se_crea_la_tarea_con_nombre(String)"
 });
 formatter.result({
-  "duration": 1838332,
+  "duration": 2280203,
   "status": "passed"
 });
 formatter.scenario({
@@ -115,7 +115,7 @@ formatter.match({
   "location": "CreacionTareaSteps.que_soy_el_usuario_y_puedo_crear_tareas(String)"
 });
 formatter.result({
-  "duration": 426579,
+  "duration": 74569,
   "status": "passed"
 });
 formatter.match({
@@ -136,7 +136,7 @@ formatter.match({
   "location": "CreacionTareaSteps.cuando_creo_la_tarea(String,String,String)"
 });
 formatter.result({
-  "duration": 169085,
+  "duration": 162827,
   "status": "passed"
 });
 formatter.match({
@@ -149,7 +149,7 @@ formatter.match({
   "location": "CreacionTareaSteps.se_crea_la_tarea_con_nombre(String)"
 });
 formatter.result({
-  "duration": 108117,
+  "duration": 106381,
   "status": "passed"
 });
 formatter.scenario({
@@ -185,7 +185,7 @@ formatter.match({
   "location": "CreacionTareaSteps.que_soy_el_usuario_y_puedo_crear_tareas(String)"
 });
 formatter.result({
-  "duration": 124245,
+  "duration": 96834,
   "status": "passed"
 });
 formatter.match({
@@ -202,7 +202,7 @@ formatter.match({
   "location": "CreacionTareaSteps.cuando_asigno_la_tarea_a(String,String)"
 });
 formatter.result({
-  "duration": 408168,
+  "duration": 204742,
   "status": "passed"
 });
 formatter.match({
@@ -215,7 +215,7 @@ formatter.match({
   "location": "CreacionTareaSteps.Christian_Sanchez_tiene_la_tarea_asignada(String)"
 });
 formatter.result({
-  "duration": 116757,
+  "duration": 139911,
   "status": "passed"
 });
 formatter.scenario({
@@ -251,7 +251,7 @@ formatter.match({
   "location": "CreacionTareaSteps.que_soy_el_usuario_y_puedo_crear_tareas(String)"
 });
 formatter.result({
-  "duration": 132030,
+  "duration": 109664,
   "status": "passed"
 });
 formatter.match({
@@ -268,7 +268,7 @@ formatter.match({
   "location": "CreacionTareaSteps.cuando_asigno_la_tarea_a(String,String)"
 });
 formatter.result({
-  "duration": 131282,
+  "duration": 132753,
   "status": "passed"
 });
 formatter.match({
@@ -281,7 +281,7 @@ formatter.match({
   "location": "CreacionTareaSteps.Christian_Sanchez_tiene_la_tarea_asignada(String)"
 });
 formatter.result({
-  "duration": 63635,
+  "duration": 82305,
   "status": "passed"
 });
 formatter.scenario({
@@ -321,14 +321,14 @@ formatter.match({
   "location": "CreacionTareaSteps.que_creo_el_proyecto_y_creo_la_tarea(String,String)"
 });
 formatter.result({
-  "duration": 213502,
+  "duration": 203640,
   "status": "passed"
 });
 formatter.match({
   "location": "CreacionTareaSteps.cuando_asigno_la_tarea_al_proyecto()"
 });
 formatter.result({
-  "duration": 96886,
+  "duration": 139476,
   "status": "passed"
 });
 formatter.match({
@@ -341,7 +341,7 @@ formatter.match({
   "location": "CreacionTareaSteps.la_tarea_debe_ser_una_tarea_del_proyecto_Guarani(String)"
 });
 formatter.result({
-  "duration": 118983,
+  "duration": 100169,
   "status": "passed"
 });
 formatter.scenario({
@@ -377,7 +377,7 @@ formatter.match({
   "location": "CreacionTareaSteps.que_soy_el_usuario(String)"
 });
 formatter.result({
-  "duration": 143319,
+  "duration": 124128,
   "status": "passed"
 });
 formatter.match({
@@ -394,7 +394,7 @@ formatter.match({
   "location": "CreacionTareaSteps.cuando_asigno_la_tarea_a_siendo_desarrollador(String,String)"
 });
 formatter.result({
-  "duration": 255900,
+  "duration": 191733,
   "status": "passed"
 });
 formatter.match({
@@ -411,7 +411,7 @@ formatter.match({
   "location": "CreacionTareaSteps.christian_Sanchez_no_tiene_la_tarea_ya_que_no_esta_autorizado(String,String)"
 });
 formatter.result({
-  "duration": 159358,
+  "duration": 147095,
   "status": "passed"
 });
 });

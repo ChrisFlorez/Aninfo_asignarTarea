@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="0.106973">
-<testcase classname="Creacion y asignacion de tarea" name="Un lider de equipo crea una tarea" time="0.104305">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="0.275636">
+<testcase classname="Creacion y asignacion de tarea" name="Un lider de equipo crea una tarea" time="0.27362">
 <system-out><![CDATA[Dado que soy el usuario "Paula Perez" y puedo crear tareas..................passed
 Cuando cuando creo la tarea "inscripcion" , "ID" y "Paula Perez"............passed
 Entonces se crea la tarea con nombre "inscripcion"..........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Creacion y asignacion de tarea" name="Un analista funcional del equipo crea una tarea" time="0.000704">
+<testcase classname="Creacion y asignacion de tarea" name="Un analista funcional del equipo crea una tarea" time="0.000344">
 <system-out><![CDATA[Dado que soy el usuario "Josefina Martinez" y puedo crear tareas............passed
 Cuando cuando creo la tarea "crear nuevo curso" , "ID" y "Josefina Martinez".passed
 Entonces se crea la tarea con nombre "crear nuevo curso"....................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Creacion y asignacion de tarea" name="Un lider de equipo asigna una tarea a un desarrollador" time="0.000649">
+<testcase classname="Creacion y asignacion de tarea" name="Un lider de equipo asigna una tarea a un desarrollador" time="0.000441">
 <system-out><![CDATA[Dado que soy el usuario "Paula Perez" y puedo crear tareas..................passed
 Cuando cuando asigno la tarea "inscripcion" a "Christian Sanchez"...........passed
 Entonces Christian Sanchez tiene la tarea "inscripcion" asignada............passed
 ]]></system-out>
 </testcase>
-<testcase classname="Creacion y asignacion de tarea" name="Un analista funcional asigna una tarea a un desarrollador" time="0.000327">
+<testcase classname="Creacion y asignacion de tarea" name="Un analista funcional asigna una tarea a un desarrollador" time="0.000325">
 <system-out><![CDATA[Dado que soy el usuario "Josefina Martinez" y puedo crear tareas............passed
 Cuando cuando asigno la tarea "crear nuevo curso" a "Juan Ramirez"..........passed
 Entonces Christian Sanchez tiene la tarea "crear nuevo curso" asignada......passed
 ]]></system-out>
 </testcase>
-<testcase classname="Creacion y asignacion de tarea" name="Se crea una tarea para un proyecto" time="0.000429">
+<testcase classname="Creacion y asignacion de tarea" name="Se crea una tarea para un proyecto" time="0.000443">
 <system-out><![CDATA[Dado que creo el proyecto "Guarani" y creo la tarea "ofertaAcademica".......passed
 Cuando cuando asigno la tarea al proyecto...................................passed
 Entonces la tarea "ofertaAcademica" debe ser una tarea del proyecto Guarani.passed
 ]]></system-out>
 </testcase>
-<testcase classname="Creacion y asignacion de tarea" name="Un desarrollador asigna una tarea a otro desarrollador" time="0.000559">
+<testcase classname="Creacion y asignacion de tarea" name="Un desarrollador asigna una tarea a otro desarrollador" time="0.000463">
 <system-out><![CDATA[Dado que soy el usuario "Juan Ramirez"......................................passed
 Cuando cuando asigno la tarea "crear nuevo curso" a "Christian Sanchez" siendo desarrollador.passed
 Entonces Christian Sanchez no tiene la tarea "crear nuevo curso" ya que "Juan Ramirez" no esta autorizado.passed
